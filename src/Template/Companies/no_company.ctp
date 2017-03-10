@@ -1,0 +1,1 @@
+<center><h2>No Company found!</h2></center>
