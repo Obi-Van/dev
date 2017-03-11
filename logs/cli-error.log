@@ -1,0 +1,581 @@
+2017-03-09 17:39:13 Error: [Symfony\Component\Console\Exception\RuntimeException] Too many arguments, expected arguments "command".
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\symfony\console\Input\ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('Testtt')
+#1 E:\Projects\__dev__\vendor\symfony\console\Input\Input.php(63): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(220): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate', 'Testtt')
+#8 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#10 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#11 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#12 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2017-03-10 11:18:50 Error: [Symfony\Component\Console\Exception\RuntimeException] Too many arguments, expected arguments "command".
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\symfony\console\Input\ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('Testtt')
+#1 E:\Projects\__dev__\vendor\symfony\console\Input\Input.php(63): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(220): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate', 'Testtt')
+#8 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#10 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#11 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#12 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2017-03-10 11:39:22 Error: [InvalidArgumentException] The migration class name "MyCustomMigration" already exists
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Create->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Create->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Create), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'create', 'MyCustomMigrati...')
+#7 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#8 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#9 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#10 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#11 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#12 {main}
+
+
+2017-03-10 11:40:57 Error: [RuntimeException] "value" is not a valid column option.
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(344): Phinx\Db\Table\Column->setOptions(Array)
+#1 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(37): Phinx\Db\Table->addColumn('description', 'text', Array)
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#4 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#6 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-10 11:41:03 Error: [RuntimeException] "value" is not a valid column option.
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(344): Phinx\Db\Table\Column->setOptions(Array)
+#1 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(37): Phinx\Db\Table->addColumn('description', 'text', Array)
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#4 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#6 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-10 11:44:42 Error: [Symfony\Component\Debug\Exception\FatalThrowableError] Class 'TableRegistry' not found
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#4 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#12 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#14 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-03-10 13:55:33 Error: [Symfony\Component\Debug\Exception\FatalThrowableError] Call to undefined function execute()
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#4 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#12 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#14 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-03-10 13:55:56 Error: [PDOException] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'products' already exists
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(338): PDO->exec('CREATE TABLE `p...')
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php(305): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `p...')
+#2 E:\Projects\__dev__\vendor\cakephp\migrations\src\CakeAdapter.php(423): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Phinx\Db\Table))
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(611): Migrations\CakeAdapter->createTable(Object(Phinx\Db\Table))
+#4 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(50): Phinx\Db\Table->create()
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#6 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#7 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#8 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#9 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#17 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#18 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#19 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2017-03-10 13:57:49 Error: [Symfony\Component\Debug\Exception\FatalThrowableError] Call to undefined function execute()
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#4 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#12 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#14 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-03-10 13:57:55 Error: [PDOException] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'products' already exists
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(338): PDO->exec('CREATE TABLE `p...')
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php(305): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `p...')
+#2 E:\Projects\__dev__\vendor\cakephp\migrations\src\CakeAdapter.php(423): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Phinx\Db\Table))
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(611): Migrations\CakeAdapter->createTable(Object(Phinx\Db\Table))
+#4 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(50): Phinx\Db\Table->create()
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#6 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#7 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#8 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#9 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#17 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#18 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#19 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2017-03-10 13:58:58 Error: [Symfony\Component\Debug\Exception\FatalThrowableError] Call to undefined function execute()
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#4 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#12 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#14 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-03-10 13:59:29 Error: [PDOException] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'products' already exists
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(338): PDO->exec('CREATE TABLE `p...')
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php(305): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `p...')
+#2 E:\Projects\__dev__\vendor\cakephp\migrations\src\CakeAdapter.php(423): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Phinx\Db\Table))
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(611): Migrations\CakeAdapter->createTable(Object(Phinx\Db\Table))
+#4 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(50): Phinx\Db\Table->create()
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#6 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#7 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#8 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#9 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#17 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#18 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#19 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2017-03-10 14:18:16 Error: [RuntimeException] "autoIncrement" is not a valid column option.
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(344): Phinx\Db\Table\Column->setOptions(Array)
+#1 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(34): Phinx\Db\Table->addColumn('id', 'integer', Array)
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#4 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#6 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-10 14:18:36 Error: [RuntimeException] "autoIncrement" is not a valid column option.
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(344): Phinx\Db\Table\Column->setOptions(Array)
+#1 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(34): Phinx\Db\Table->addColumn('id', 'integer', Array)
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#4 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#6 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-10 14:18:47 Error: [RuntimeException] "autoIncrement" is not a valid column option.
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(344): Phinx\Db\Table\Column->setOptions(Array)
+#1 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(34): Phinx\Db\Table->addColumn('id', 'integer', Array)
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#4 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#6 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-03-10 14:19:57 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.products' doesn't exist
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(338): PDO->exec('INSERT INTO pro...')
+#1 E:\Projects\__dev__\vendor\cakephp\migrations\src\CakeAdapter.php(334): Phinx\Db\Adapter\PdoAdapter->execute('INSERT INTO pro...')
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\AbstractMigration.php(192): Migrations\CakeAdapter->execute('INSERT INTO pro...')
+#3 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(47): Phinx\Migration\AbstractMigration->execute('INSERT INTO pro...')
+#4 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#6 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#7 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#8 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#16 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#18 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#19 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#20 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#21 {main}
+
+
+2017-03-10 14:20:15 Error: [PDOException] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'companies1' already exists
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(338): PDO->exec('CREATE TABLE `c...')
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php(305): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `c...')
+#2 E:\Projects\__dev__\vendor\cakephp\migrations\src\CakeAdapter.php(423): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Phinx\Db\Table))
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(611): Migrations\CakeAdapter->createTable(Object(Phinx\Db\Table))
+#4 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(46): Phinx\Db\Table->create()
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#6 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#7 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#8 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#9 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#17 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#18 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#19 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2017-03-10 14:20:24 Error: [PDOException] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'companies1' already exists
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(338): PDO->exec('CREATE TABLE `c...')
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php(305): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `c...')
+#2 E:\Projects\__dev__\vendor\cakephp\migrations\src\CakeAdapter.php(423): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Phinx\Db\Table))
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(611): Migrations\CakeAdapter->createTable(Object(Phinx\Db\Table))
+#4 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(46): Phinx\Db\Table->create()
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#6 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#7 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#8 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#9 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#17 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#18 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#19 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
+2017-03-10 14:27:25 Error: [Symfony\Component\Debug\Exception\FatalThrowableError] Parse error: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(258): Phinx\Migration\Manager->getMigrations()
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#12 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2017-03-10 14:28:19 Error: [Symfony\Component\Debug\Exception\FatalThrowableError] Parse error: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(258): Phinx\Migration\Manager->getMigrations()
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#12 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2017-03-10 14:28:28 Error: [Symfony\Component\Debug\Exception\FatalThrowableError] Parse error: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(258): Phinx\Migration\Manager->getMigrations()
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#12 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2017-03-10 14:29:01 Error: [Symfony\Component\Debug\Exception\FatalThrowableError] Parse error: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(258): Phinx\Migration\Manager->getMigrations()
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', NULL)
+#2 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#12 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#13 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#14 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#15 {main}
+
+
+2017-03-10 14:33:59 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'created' doesn't have a default value
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(338): PDO->exec('INSERT INTO use...')
+#1 E:\Projects\__dev__\vendor\cakephp\migrations\src\CakeAdapter.php(334): Phinx\Db\Adapter\PdoAdapter->execute('INSERT INTO use...')
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\AbstractMigration.php(192): Migrations\CakeAdapter->execute('INSERT INTO use...')
+#3 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(61): Phinx\Migration\AbstractMigration->execute('INSERT INTO use...')
+#4 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#6 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#7 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#8 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#16 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#18 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#19 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#20 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#21 {main}
+
+
+2017-03-10 14:35:13 Error: [PDOException] SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(338): PDO->exec('INSERT INTO use...')
+#1 E:\Projects\__dev__\vendor\cakephp\migrations\src\CakeAdapter.php(334): Phinx\Db\Adapter\PdoAdapter->execute('INSERT INTO use...')
+#2 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\AbstractMigration.php(192): Migrations\CakeAdapter->execute('INSERT INTO use...')
+#3 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(61): Phinx\Migration\AbstractMigration->execute('INSERT INTO use...')
+#4 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#6 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#7 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#8 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#16 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#17 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#18 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#19 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#20 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#21 {main}
+
+
+2017-03-10 14:48:00 Error: [PDOException] SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'users' already exists
+Stack Trace:
+#0 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\PdoAdapter.php(338): PDO->exec('CREATE TABLE `u...')
+#1 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Adapter\MysqlAdapter.php(305): Phinx\Db\Adapter\PdoAdapter->execute('CREATE TABLE `u...')
+#2 E:\Projects\__dev__\vendor\cakephp\migrations\src\CakeAdapter.php(423): Phinx\Db\Adapter\MysqlAdapter->createTable(Object(Phinx\Db\Table))
+#3 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Db\Table.php(611): Migrations\CakeAdapter->createTable(Object(Phinx\Db\Table))
+#4 E:\Projects\__dev__\config\Migrations\20170310112753_my_custom_migration.php(59): Phinx\Db\Table->create()
+#5 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager\Environment.php(120): MyCustomMigration->change()
+#6 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(327): Phinx\Migration\Manager\Environment->executeMigration(Object(MyCustomMigration), 'up')
+#7 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php(303): Phinx\Migration\Manager->executeMigration('default', Object(MyCustomMigration), 'up')
+#8 E:\Projects\__dev__\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(113): Phinx\Migration\Manager->migrate('default', 20170310112753)
+#9 E:\Projects\__dev__\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 E:\Projects\__dev__\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 E:\Projects\__dev__\vendor\symfony\console\Command\Command.php(262): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 E:\Projects\__dev__\vendor\symfony\console\Application.php(826): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 E:\Projects\__dev__\vendor\symfony\console\Application.php(189): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 E:\Projects\__dev__\vendor\symfony\console\Application.php(120): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#17 E:\Projects\__dev__\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#18 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(227): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#19 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#20 E:\Projects\__dev__\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#21 E:\Projects\__dev__\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#22 {main}
+
+
